@@ -57,7 +57,7 @@ class leads_uploader extends Command
                 $crmCustomer_model->create([
                     'first_name' => $row['FirstName'],
                     'last_name' => $row['LastName'],
-//                    'email' => $row['Email'],
+                    'email' => $row['Email'],
                     'phone' => $row['PrimaryPhone'],
                     'address' => $row['Address'],
                     'city' => $row['City'],
@@ -65,12 +65,12 @@ class leads_uploader extends Command
                     'zip' => $row['ZipCode'],
                     'company_name' => $row['BorrowerName'],
                     'erc_amount' => $row['CurrentApprovalAmount'],
-//                    'w2_employees' => $row['W2_employees'],
-//                    'receive_erc' => $row['Receive_ERC'],
-//                    'ppp_loan' => $row['ppp_loan'],
-//                    'employee_count' => $row['Employee_count'],
-//                    'first_name_verified' => $row['fname_verify'],
-//                    'last_name_verified' => $row['Lname_verify'],
+                    'w2_employees' => $row['W2_employees'],
+                    'receive_erc' => $row['Receive_ERC'],
+                    'ppp_loan' => $row['ppp_loan'],
+                    'employee_count' => $row['Employee_count'],
+                    'first_name_verified' => $row['fname_verify'],
+                    'last_name_verified' => $row['Lname_verify'],
                     'status_id' => $status->id,
                 ]);
             }else{
