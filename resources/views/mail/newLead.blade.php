@@ -27,7 +27,7 @@
 <body
     style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; color: #74787e; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;">
 
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" role="presentation"
+    <table class="wrapper" width="100%" cellpadding="0" cellspacing="0" role="presentation"
        style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
     <tr>
         <td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
@@ -36,9 +36,9 @@
                 <tr>
                     <td class="header"
                         style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 25px 0; text-align: center;">
-                        <a href="https://management.apexcallcenters.xyz"
+                        <a href="http://management-imp.apexcallcenter.com"
                            style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #bbbfc3; font-size: 19px; font-weight: bold; text-decoration: none; text-shadow: 0 1px 0 #ffffff; display: inline-block;">
-                            <img src="https://management.apexcallcenters.xyz/apex_blue_logo.png" class="logo"
+                            <img src="http://management-imp.apexcallcenter.com/apex_blue_logo.png" class="logo"
                                  alt="Apexcallcenters Logo"
                                  style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; max-width: 25%; border: none;"></a>
                     </td>
@@ -57,7 +57,8 @@
                                     <h1 style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #2F3133; font-size: 19px; font-weight: bold; margin-top: 0; text-align: left;">
                                         {{ $value }}</h1>
                                     <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787e; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">
-                                        In order to keep all departments involved in the applicant selection and training process, the following information is shared with you: </p>
+                                        In order to keep all departments involved in the applicant selection and
+                                        training process, the following information is shared with you: </p>
                                     <h2 style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #2F3133; font-size: 16px; font-weight: bold; margin-top: 0; text-align: left;">
                                         Lead information: </h2>
                                     <div class="table"

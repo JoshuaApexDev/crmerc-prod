@@ -44,11 +44,11 @@ class ApplyController extends Controller
         if ($crmCustomer = CrmCustomer::create($fields)) {
             $date = Carbon::now();
             $guzzle = new Client();
-            $req = $guzzle->request('GET', 'management.apexcallcenters.xyz/api/auto-reports/get/');
+            $req = $guzzle->request('GET', 'management-imp.apexcallcenter.com/api/auto-reports/get/');
             $res = json_decode($req->getBody()->getContents());
             foreach ($res as $r) {
                 if ($r->name == 'Applicants Mailing Report') {
-                    $req = $guzzle->request('GET', 'management.apexcallcenters.xyz/api/auto-reports/get-user-reports/' . $r->id);
+                    $req = $guzzle->request('GET', 'management-imp.apexcallcenter.com/api/auto-reports/get-user-reports/' . $r->id);
                     $res2 = json_decode($req->getBody()->getContents());
                     $users = $res2;
                     foreach ($users as $user) {

@@ -68,7 +68,7 @@ class TelnyxApiController extends Controller
                 $from = substr($request->data['payload']['from'], 1);
                 $xfer = $call->transfer([
                     'to' => $sip_endpoint, 'from' => $from,
-                    'webhook_url' => 'https://crmerc.apexcallcenters.xyz/api/telnyx/xfers'
+                    'webhook_url' => 'http://crmerc.apexcallcenter.com/api/telnyx/xfers'
                 ]);
                 $entry = TelnyxCallEntry::where('main_control_id', $request->data['payload']['call_control_id'])->first();
                 if ($entry) {

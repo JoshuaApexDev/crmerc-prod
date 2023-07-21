@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Api\V1\Admin\CrmCustomerApiController;
 use App\Http\Controllers\Api\V1\Admin\ApplyApiController;
+use App\Http\Controllers\SecureLinkApiController;
 
 Route::get('get/lead', [CrmCustomerApiController::class, 'getLead']);
 Route::get('employee/', [CrmCustomerApiController::class, 'employee']);
@@ -40,9 +41,11 @@ Route::group(['prefix' => 'v1', 'as' => 'api.', 'namespace' => 'Api\V1\Admin', '
     Route::apiResource('task-statuses', 'TaskStatusApiController');
 
     // Task Tag
-    Route::apiResource('task-tags', 'TaskTagApiController');
+//    Route::apiResource('task-tags', 'TaskTagApiController');
 
     // Task
-    Route::post('tasks/media', 'TaskApiController@storeMedia')->name('tasks.storeMedia');
-    Route::apiResource('tasks', 'TaskApiController');
+//    Route::post('tasks/media', 'TaskApiController@storeMedia')->name('tasks.storeMedia');
+//    Route::apiResource('tasks', 'TaskApiController');
 });
+
+Route::post('/erc-secure-link/{id}', [SecureLinkApiController::class, 'sendSecureLink'])->name('sendSecureLink');
