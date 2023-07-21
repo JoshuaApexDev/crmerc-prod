@@ -76,7 +76,7 @@
                                     <td class="content-cell" align="center"
                                         style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
                                         <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; line-height: 1.5em; margin-top: 0; color: #aeaeae; font-size: 12px; text-align: center;">
-                                            © 2023 ApexDevelopment. All rights reserved.</p>
+                                            © 2023 All rights reserved.</p>
                                     </td>
                                 </tr>
                             </table>
