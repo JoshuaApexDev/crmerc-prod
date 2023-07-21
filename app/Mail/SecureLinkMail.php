@@ -29,7 +29,7 @@ class SecureLinkMail extends Mailable
      */
     public function build()
     {
-        return $this -> subject($this->data['subject'])->view('mail.securelink', [
+        return $this -> from('app@taxresolutionplus.com', 'Tax Resolution Plus')->subject($this->data['subject'])->view('mail.securelink', [
             'title' => $this->data['title'],
             'link' => $this->data['link'],
         ]);
